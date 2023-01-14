@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Common css part starts */
+body {
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+a {
+  text-decoration: none;
+}
+/* Common css part ends */
+
+/* header part starts */
+#header nav .row {
+  justify-content: space-between;
+  margin-top: 40px;
+}
+#header .nav_logo h2 {
+  font-size: 24px;
+  color: #3a3a3a;
+  line-height: 36px;
+  font-weight: 700;
+}
+#header .menu ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 25px;
+}
+#header .menu ul li a,
+#hero .hero_cnt p {
+  font-size: 16px;
+  color: #3a3a3a;
+  font-weight: 600;
+  line-height: 24px;
+}
+/* hero section */
+#hero {
+  margin: 70px 0;
+}
+#hero .row {
+  align-items: center;
+  justify-content: space-between;
+}
+#hero .hero_cnt {
+  width: 45%;
+}
+#hero .hero_cnt h1 {
+  color: #3a3a3a;
+  font-size: 50px;
+  line-height: 70px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+#hero .hero_cnt a {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  background-color: #e02c6d;
+  padding: 10px 24px;
+  margin-top: 22px;
+  border-radius: 41px;
+  display: inline-block;
+}
+#hero .hero_cnt a > i {
+  margin-left: 5px;
+}
+#hero .hero_img img {
+  width: 440px;
+  height: 414px;
+}
+#hero .hero_img {
+  border: 1px solid rgba(58, 58, 58, 0.1);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+/* header part ends */
+
+/* e-commerce part starts */
+#e-commerce .e-commerces {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  justify-items: center;
+  align-items: center;
+  padding: 8px 0;
+  border-top: 1px solid rgba(170, 170, 170, 0.2);
+  border-bottom: 1px solid rgba(170, 170, 170, 0.2);
+}
+/* e-commerce part ends */
+
+/* popular collection part starts */
+#popular_collection {
+  margin: 70px 0;
+}
+#popular_collection .collections {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  grid-row-gap: 20px;
+}
+#popular_collection .collections .card {
+  height: 500px;
+  box-shadow: 0px 0px 47px -27px rgba(0, 0, 0, 0.75);
+  width: 320px;
+  padding: 10px 10px 20px 10px;
+}
+#popular_collection .collections .card_img img {
+  width: 300px;
+  height: 256px;
+}
+#popular_collection .collections .card_detail h2 {
+  color: #18191f;
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 15px;
+}
+#popular_collection .collections .card_detail h5 {
+  color: #000000de;
+  font-size: 22px;
+  font-weight: 400;
+  margin: 10px 0;
+}
+#popular_collection .collections .card_detail p {
+  width: 180px;
+  color: #787885;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+}
+#popular_collection .collections .card_detail span {
+  color: #fb8200;
+  font-size: 14px;
+  padding-bottom: 8px;
+  display: inline-block;
+}
+#popular_collection .collections .card_detail span small {
+  color: #5e6366;
+  font-weight: 700;
+  margin-left: 5px;
+}
+/* popular collection part ends */
